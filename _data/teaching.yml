@@ -1,0 +1,34 @@
+ta:
+  role: "Graduate Teaching Assistant"
+  institution: "University of British Columbia, Okanagan"
+  when: "January 2024 – Present"
+  terms:
+    - when: "September – December 2026"
+      courses: ["DATA 541: Scripting and Reporting", "DATA 540: Databases and Data Retrieval", "DATA 533: Collaborative Software Development"]
+    - when: "May – June 2026"
+      courses: ["DATA 599: Capstone"]
+    - when: "January – April 2026"
+      courses: ["DATA 534: Web and Cloud Computing", "DATA 551: Dataviz II", "DATA 585: Optimization"]
+    - when: "September – December 2025"
+      courses: ["DATA 541: Scripting and Reporting", "DATA 540: Databases and Data Retrieval", "DATA 533: Collaborative Software Development"]
+    - when: "January – April 2025"
+      courses: ["COSC 407: Introduction to Parallel Computing", "COSC 222: Data Structures"]
+    - when: "September – December 2024"
+      courses: ["COSC 341: Human Computer Interaction"]
+    - when: "July – August 2024"
+      courses: ["COSC 221: Discrete Structures in Computing"]
+    - when: "January – April 2024"
+      courses: ["COSC 111: Computer Programming I"]
+
+coaching:
+  - role: "Mathematics Olympiad Organizer and Instructor"
+    org: "Education Center Zerdeli"
+    when: "June 2022 – August 2023"
+    details:
+      - "Organized regional and national mathematics competitions for high school students and teachers"
+      - "Delivered 72 academic hours of mathematics and olympiad mathematics courses for high school and primary school teachers, online and offline"
+  - role: "Mathematics Olympiad Coach"
+    org: "National School of Physics and Mathematics"
+    when: "September 2019 – September 2021"
+    details:
+      - "Certificate of Commendation from the Ministry of Education and Science for my students' achievements: silver and bronze medals in the International Zhautykov, Asian Pacific, and Silk Road Mathematics Olympiads; gold, silver, and bronze medals in the Republican Mathematics Olympiad"

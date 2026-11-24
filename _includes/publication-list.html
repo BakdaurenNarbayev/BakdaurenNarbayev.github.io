@@ -1,0 +1,14 @@
+{% include base_path %}
+{% assign h = include.heading | default: "h2" %}
+{% for category in site.publication_category %}
+{% assign key = category[0] %}
+{% assign items = site.data.publications[key] %}
+{% assign docs = site.publications | where: "category", key | reverse %}
+{% if items.size > 0 or docs.size > 0 %}
+<{{ h }}>{{ category[1].title }}</{{ h }}>{% if h == "h2" %}<hr />{% endif %}
+<ul class="pub-list">
+{% for p in items %}<li>{{ p.authors | replace: "Narbayev, B.", "<strong>Narbayev, B.</strong>" }} ({{ p.year }}). <a href="{{ p.url }}">{{ p.title }}</a>. {% if p.detail %}{{ p.detail }}, {% endif %}<em>{{ p.venue }}</em>{% if p.extra %}, {{ p.extra }}{% endif %}{% if p.pages %}, pp. {{ p.pages }}{% endif %}.</li>
+{% endfor %}{% for d in docs %}<li>{{ d.authors | replace: "Narbayev, B.", "<strong>Narbayev, B.</strong>" }} ({{ d.date | date: "%Y" }}). <a href="{{ base_path }}{{ d.url }}">{{ d.title }}</a>. <em>{{ d.venue }}</em>.{% if d.note %} {{ d.note | replace: "Narbayev, B.", "<strong>Narbayev, B.</strong>" }}{% endif %}</li>
+{% endfor %}</ul>
+{% endif %}
+{% endfor %}

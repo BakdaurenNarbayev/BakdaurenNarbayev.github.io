@@ -1,0 +1,31 @@
+# Papers and theses: rendered by _includes/publication-list.html (title links to the paper; no separate pages).
+# Books live in _publications/ because they have no external page.
+conferences:
+- authors: Narbayev, B., Lasserre, P., & Hasan, K.
+  year: 2026
+  title: 'NinjaPort: A Multi-Hand Approach for VR Teleportation'
+  venue: 2026 IEEE Conference on Virtual Reality and 3D User Interfaces (VR)
+  pages: 399–409
+  url: https://doi.org/10.1109/VR67842.2026.00061
+  abstract: Teleportation in Virtual Reality (VR) allows users to instantly move between locations, typically by aiming at a destination with a parabolic ray emitted from a controller and confirming the action with a button press. Recent advances in hand-tracking within Head-Mounted Displays (HMDs) have enabled researchers to explore hand-based teleportation, but these techniques often suffer from reduced pointing accuracy and increased effort. To address these challenges, we introduce NinjaPort, a novel, hand-based teleportation technique that allows users to control four virtual copies of their dominant hand with rays, each positioned at a different distance. Users can quickly select a desired teleportation distance by pinching a specific finger on their non-dominant hand, where each finger (e.g., index to pinky) maps to one of the four virtual hands. In our first user study, we explored design parameters to determine the optimal spatial arrangement of the virtual hands. Based on the findings, we refined NinjaPort and conducted a second study comparing it against a commercially available hand-based teleportation method and a research-based alternative. Our findings show that NinjaPort enables more accurate and faster teleportation, with less hand rotation. We conclude with design guidelines for creating effective and user-friendly hand-based VR teleportation techniques.
+- authors: Narbayev, B., Ullah, A. K. M. A., Sin, J., Lasserre, P., & Hasan, K.
+  year: 2025
+  title: Exploring Pointing and Confirmation Techniques for Teleportation Across Varying Elevations in Virtual Reality
+  venue: 2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
+  pages: 1671–1681
+  url: https://doi.org/10.1109/ISMAR67309.2025.00170
+  abstract: Teleportation in Virtual Reality (VR) is a locomotion technique that allows users to navigate between locations within a virtual environment instantly. Traditionally, VR teleportation is performed using physical controllers, where users control a teleportation pointer, represented by a straight line or parabola, and activate the teleportation to the target destination by pressing a button. Recent advances in hand and eye-tracking capabilities in Head-Mounted Displays (HMDs) enable designers to leverage hand and eye-based interactions to enhance the immersion and naturalness of controller-free VR usage. However, there has been limited research on comparing different controller-free methods for VR teleportation across various elevations. To address this gap, we conducted a user study exploring three controller-free pointing techniques (gaze, hand, and head), four confirmation modalities (finger pinch, eye-blink, dwell, and voice), and two types of teleportation pointers (linear and parabolic) for VR teleportation across various elevations. Our results show that head-based pointing was faster and more accurate than other techniques, with head and gaze achieving higher throughput than hand-based methods. For confirmation, finger pinch yielded the best performance in terms of task completion time and throughput, followed by dwell, voice, and eye-blink; dwell was the most accurate. The linear pointer outperformed the parabolic pointer in some contexts. Based on these findings, we propose design guidelines to enhance controller-free VR teleportation using various input modalities.
+- authors: Narbayev, B., & Amanbek, Y.
+  year: 2022
+  title: 'Finite Element Model for Wind Comfort Around a Tall Building: A Case Study of Tower of Qazaqstan'
+  venue: International Conference on Computational Science and Its Applications – ICCSA 2022 Workshops
+  extra: Lecture Notes in Computer Science, vol. 13380, Springer, Cham
+  url: https://link.springer.com/chapter/10.1007/978-3-031-10542-5_37
+  abstract: Pedestrian wind comfort plays an essential role in the urban environment. In our work, we consider a model obtained using Computational Fluid Dynamics (CFD) around a tall building. Our focus is the Tower of Qazaqstan or Abu Dhabi Plaza in Nur-Sultan city (Kazakhstan), which will be the tallest building in Central Asia with a height of 310.8 m. We investigated the effect of the wind velocity on pedestrians by solving the incompressible time-dependent Navier-Stokes equations in the deal.II library by the Finite Element Method (FEM) using the projection method. We present numerical simulation results for various scenarios. It has been found that the velocity profile can vary in the domain that creates different pedestrian comfort conditions including the exceeded category at places dedicated to pedestrian walking.
+theses:
+- authors: Narbayev, B.
+  year: 2025
+  title: Exploring controller-free teleportation techniques for efficient virtual reality navigation
+  detail: MSc thesis
+  venue: University of British Columbia
+  url: https://open.library.ubc.ca/collections/ubctheses/24/items/1.0449818

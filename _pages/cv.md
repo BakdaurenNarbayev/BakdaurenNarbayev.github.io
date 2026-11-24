@@ -11,54 +11,31 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Computer Science, University of British Columbia, Kelowna, Canada, September 2025 – Present
+  * Research focus: designing and developing proactive XR assistants for in-person conversations
+  * Coursework: Advanced Algorithms (COSC 520), Topics in Computer Science: Ubilytics for XR (COSC 519), Research Skills (COSC 690)
+* M.S. in Computer Science, University of British Columbia, Kelowna, Canada, September 2023 – August 2025
+  * GPA: 4.20/4.33
+  * Thesis: [Exploring controller-free teleportation techniques for efficient virtual reality navigation](https://open.library.ubc.ca/collections/ubctheses/24/items/1.0449818)
+  * Coursework: Advanced Human Computer Interaction, Advanced Interaction Design, Fundamentals of Immersive Technologies, User-Centered Immersive Design, Network Science
+* B.S. in Computer Science, Nazarbayev University, Astana, Kazakhstan, August 2018 – June 2022
+  * GPA: 3.96/4.0, Top Honor, Summa Cum Laude
 
-Work experience
+Awards and honours
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* [International Four-Year Doctoral Partial Tuition Award](https://gradstudies.ok.ubc.ca/resources/award-opportunities/idpt/), University of British Columbia, 2025 – Present
+* UBC Okanagan Graduate Research Scholarship, University of British Columbia, 2023 – Present
+* Nazarbayev University Educational Grant, 2018 – 2022
+* Stipend of the President of Nazarbayev University, January 2021 – June 2021
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+{% include publication-list.html heading="h3" %}
+
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+{% include teaching-list.html heading="h3" %}
+
+Academic service
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer: CHI 2027, CHI 2026 (Posters), IEEE VR 2027, ISMAR 2026, MobileHCI 2026, MobileHCI 2025

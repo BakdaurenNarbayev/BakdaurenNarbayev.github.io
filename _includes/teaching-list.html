@@ -1,0 +1,10 @@
+{% assign h = include.heading | default: "h2" %}
+<{{ h }}>Teaching Assistant</{{ h }}>{% if h == "h2" %}<hr />{% endif %}
+<p>{{ site.data.teaching.ta.role }}, {{ site.data.teaching.ta.institution }}, {{ site.data.teaching.ta.when }}</p>
+<ul>{% for t in site.data.teaching.ta.terms %}
+<li><strong>{{ t.when }}</strong><ul>{% for c in t.courses %}<li>{{ c }}</li>{% endfor %}</ul></li>{% endfor %}
+</ul>
+<{{ h }}>Coaching</{{ h }}>{% if h == "h2" %}<hr />{% endif %}
+<ul>{% for c in site.data.teaching.coaching %}
+<li><strong>{{ c.role }}</strong>, {{ c.org }}, {{ c.when }}<ul>{% for d in c.details %}<li>{{ d }}</li>{% endfor %}</ul></li>{% endfor %}
+</ul>
